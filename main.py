@@ -21,7 +21,7 @@ from aiogram.types import (
 )
 
 # Configuration Settings
-BOT_TOKEN = "8930443652:AAHxryi2LCo5e2BCzH8RD1K7aDgjyKTx0l0"  # Bot tokeningiz
+BOT_TOKEN = "BOT_TOKEN"  # Bot tokeningiz
 ADMIN_ID = 8208777595  # Telegram ID'ingiz
 CHANNEL_ID = "@alif_academy_lc"  # Majburiy kanal username
 
