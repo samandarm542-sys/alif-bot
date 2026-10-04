@@ -21,9 +21,9 @@ from aiogram.types import (
 )
 
 # Configuration Settings
-BOT_TOKEN = "8810636393:AAH_3cOh0J07p6g784RPgJyvk7HXyXFT3Po"  # Bot tokeningiz
+BOT_TOKEN = "8930443652:AAHxryi2LCo5e2BCzH8RD1K7aDgjyKTx0l0"  # Bot tokeningiz
 ADMIN_ID = 8208777595  # Telegram ID'ingiz
-CHANNEL_ID = "@testbotschane"  # Majburiy kanal username
+CHANNEL_ID = "@alif_academy_lc"  # Majburiy kanal username
 
 QUIZ_TIME_LIMIT = 3600  # Test uchun vaqt cheklovi (soniyalarda): 3600s = 60 daqiqa
 
@@ -303,7 +303,7 @@ async def process_subject2(message: Message, state: FSMContext):
 
     await message.answer(
         "Tabriklaymiz siz \"Alif cup\" olimpiadasida qatnashish uchun ro'yxatdan o'tdingiz. "
-        "Olimpiadani birinchi online bosqichi 05.10.2026 da boshlanadi. "
+        "Olimpiadani birinchi online bosqichi 18.10.2026 da boshlanadi. "
         "Alif academy jamoasi sizga omad tilaydi\n\n"
         f"👤 Ism: {data['full_name']}\n"
         f"📱 Tel: {data['phone']}\n"
