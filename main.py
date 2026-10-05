@@ -34,7 +34,7 @@ if not BOT_TOKEN:
     raise SystemExit("BOT_TOKEN environment o'zgaruvchisi topilmadi!")
 
 ADMIN_ID = int(os.getenv("ADMIN_ID", "8208777595"))
-CHANNEL_ID = os.getenv("CHANNEL_ID", "@testbotschane")
+CHANNEL_ID = os.getenv("CHANNEL_ID", "@alif_academy_lc")
 
 # MUHIM: Render'da bu yo'l Persistent Disk ichida bo'lishi shart (masalan /var/data/bot_database.db),
 # aks holda har deployda baza o'chib ketadi.
